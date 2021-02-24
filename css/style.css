@@ -1,0 +1,251 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../image/header.png");
+	background-size: cover;
+	height: 620px;
+}
+
+header .container {
+	padding-top: 40px;
+	color: white;
+}
+
+header .heading {
+	width: 100%;
+	display: flex;
+}
+
+.heading__logo {
+	font-size: 36px;
+}
+
+.heading__menu {
+	position: relative;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+	margin-left: auto; /* flexboxの中で右寄せ */
+	top: 20px;
+}
+
+.heading__menu span {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.heading__menu span:nth-of-type(1) {
+	top: 0;
+}
+.heading__menu span:nth-of-type(2) {
+	top: 10px;
+}
+.heading__menu span:nth-of-type(3) {
+	bottom: 0;
+}
+
+.header__logo {
+	text-align: center;
+}
+
+.header__logo h1 {
+	font-size: 120px;
+	padding-top: 140px;
+	font-weight: normal;
+}
+
+.header__logo p {
+	position: relative;
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.header__logo p:before,
+.header__logo p:after {
+	content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    background-color: white;
+}
+
+.header__logo p:before {
+	left: 0;
+}
+
+.header__logo p:after {
+	right: 0;
+}
+
+.concept__title {
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.concept__text {
+}
+
+.concept__image {
+	background-image: url("../image/concept.png");
+	height: 400px;
+	margin: 40px 0;
+}
+
+.concept__bottom {
+	height: 240px;
+	position:relative;
+	top: -200px;
+	background-color: #EDEDED;
+	z-index: -1;
+}
+
+.work__title {
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: -100px;
+	padding-bottom: 40px;
+}
+
+.work__text {
+}
+
+.work__main .title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.work__main {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between
+}
+
+.work__main .title {
+	text-align: left;
+}
+
+.work__main .contents {
+	width: 420px;
+}
+
+.work__main .decoration {
+	margin-top: 100px;
+}
+
+.work__main .wedding {
+	margin-top: -250px;
+}
+
+.work__main .for_yourself {
+	margin-top: 80px;
+}
+
+.work .container {
+	margin-bottom: 150px;
+}
+
+.florist {
+	margin-bottom: 60px;
+}
+
+.florist__head {
+	height: 374px;
+	background-color: #EDEDED;
+}
+
+.florist__title {
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: -300px;
+	padding-bottom: 40px;
+}
+
+.florist__contents {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.florist__content {
+	width: 300px;
+	text-align: left;
+}
+
+.florist__content .content__title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.shop_infomation__title {
+	font-size: 36px;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+.shop_infomation__text {
+	padding-bottom: 30px;
+}
+
+.shop_infomation__contents {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop_infomation__content {
+	width: 432px;
+	height: 320px;
+}
+
+.content__info tr {
+}
+
+.content__info tr td {
+	text-align: left;
+}
+
+.content__info tr td:nth-child(1) {
+	padding: 0 20px 30px 0;
+	border-right: black solid 1px;
+}
+
+.content__info tr td:nth-child(2) {
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+.shop_infomation {
+	margin-bottom: 100px;
+}
+
+.contact__image {
+	height: 450px;
+	background-image: url('../image/contact_us.png');
+	background-size: cover;
+}
+
+.contact__title {
+	font-size: 36px;
+	font-weight: bold;
+	padding: 120px 0 40px;
+}
+
+.contact__button {
+	border: #A0A0A0 solid 1px;
+	background-color: #FFFFFF;
+	width: 360px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 20px;
+	padding-top: 22px;
+}
